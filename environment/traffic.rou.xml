@@ -1,0 +1,12 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67"/>
+    <!-- Vehicles travel west → east through the main intersection SPRING GARDEN STREET --> 
+    <route id="west_to_east" edges="194358838#0 194358838#1 387422143#0 387422143#1"/>
+    <flow id="we_flow" type="car" route="west_to_east" begin="0" end="3600" vehsPerHour="800"/>
+	<!-- North to South traffic 34th STREET-->
+	 <route id="north_to_south" edges="12185366#3 12185366#4 387422145#0"/>
+    <flow id="ns_flow" type="car" route="north_to_south" begin="0" end="3600" vehsPerHour="600"/>
+	<!-- 34th STREET to SPRING GARDEN STREET-->
+	<route id="south_to_north" edges="12185366#3 12185366#4 387422143#0"/>
+    <flow id="sn_flow" type="car" route="south_to_north" begin="0" end="3600" vehsPerHour="400"/>
+</routes>

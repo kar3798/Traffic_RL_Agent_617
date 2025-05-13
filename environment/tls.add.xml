@@ -1,0 +1,16 @@
+<additional>
+    <!-- Custom program for the central traffic light (id=110239609) -->
+    <tlLogic id="110239609" type="static" programID="1" offset="0">
+        <phase duration="40" state="GGrrr"/>  <!-- West–East green -->
+        <phase duration="3"  state="yyrrr"/>  <!-- Yellow -->
+        <phase duration="40" state="rrGGG"/>  <!-- North–South green -->
+        <phase duration="3"  state="rryyy"/>  <!-- Yellow -->
+    </tlLogic>
+
+     <tlLogic id="4777696357" type="static" programID="1" offset="0">
+        <phase duration="40" state="GGrr"/>  <!-- North-South Green, East-West Red -->
+        <phase duration="3"  state="yyrr"/>  <!-- Yellow -->
+        <phase duration="40" state="rrGG"/>  <!-- East-West Green, North-South Red -->
+        <phase duration="3"  state="rryy"/>  <!-- Yellow -->
+    </tlLogic>
+</additional>

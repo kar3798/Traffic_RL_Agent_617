@@ -1,0 +1,6 @@
+***Starting server on port 55956 ***
+Loading net-file from 'C:\Users\Kartikeya A Yadav\Desktop\Traffic-RL-Project\environment\intersection.net.xml' ... done (15ms).
+Loading additional-files from 'C:\Users\Kartikeya A Yadav\Desktop\Traffic-RL-Project\environment\tls.add.xml' ... 
+Error: No initial signal plan loaded for tls 'traffic_light_1'.
+Loading of additional-files failed.
+Quitting (on error).
